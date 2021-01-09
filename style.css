@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Robot", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  min-height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h2 {
+  font-size: 2rem;
+  padding: 1.5rem;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-input {
+  padding: 0.5rem;
+  border: none;
+  border: 2px solid rgb(87, 83, 146);
+  font-size: 1.5rem;
+}
+
+.search-button {
+  padding: 0.5rem;
+  border: none;
+  color: white;
+  background-color: rgb(87, 83, 146);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.gallery {
+  padding: 3rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 4rem;
+  min-height: 80vh;
+  width: 90%;
+  margin: auto;
+}
+
+.photo-section {
+  height: 70vh;
+}
+
+.photo-section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.photo-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.more-section {
+  display: flex;
+  min-height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-button {
+  width: 20%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border: none;
+  color: white;
+  background-color: rgb(87, 83, 146);
+  cursor: pointer;
+}
